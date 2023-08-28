@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Anime-sama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #search-text {
+      margin-right: 20px;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <div style="width: 104%; overflow: hidden">
+    <iframe id="myIframe" src="https://anime-sama.fr/">
+  </div>
+
+  <script>
+    const iframe = document.querySelector('#myIframe');
+
+    iframe.onload = function() {
+      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+      const linkElement = document.createElement('link');
+      linkElement.rel = 'stylesheet';
+      linkElement.href = 'style.css';
+
+      iframeDocument.head.appendChild(linkElement);
+    };
+      document.addEventListener('deviceready', () => {
+        const iframe = document.getElementById('myIframe');
+        resizeIframe();
+        window.addEventListener('resize', resizeIframe);
+    });
+  </script>
+</body>
+</html>
