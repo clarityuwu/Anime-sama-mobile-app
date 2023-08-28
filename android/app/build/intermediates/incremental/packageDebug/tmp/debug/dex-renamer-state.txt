@@ -1,4 +1,4 @@
-#Mon Aug 28 22:09:51 CEST 2023
+#Mon Aug 28 23:18:32 CEST 2023
 base.0=/Users/raphaelboullay/animesama-app/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/raphaelboullay/animesama-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex
 base.2=/Users/raphaelboullay/animesama-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex

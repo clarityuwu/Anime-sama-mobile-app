@@ -1,0 +1,8 @@
+{
+  "appId": "com.clarity.animesama",
+  "appName": "Anime-sama",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

@@ -1,6 +1,5 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
   <title>Anime-sama</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -29,17 +28,6 @@
   </div>
 
   <script>
-    const iframe = document.querySelector('#myIframe');
-
-    iframe.onload = function() {
-      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-
-      const linkElement = document.createElement('link');
-      linkElement.rel = 'stylesheet';
-      linkElement.href = 'style.css';
-
-      iframeDocument.head.appendChild(linkElement);
-    };
       document.addEventListener('deviceready', () => {
         const iframe = document.getElementById('myIframe');
         resizeIframe();
