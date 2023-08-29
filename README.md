@@ -8,6 +8,10 @@ Anime-sama mobile app
 
 <p align="center">Gratuit et open-source application du site Anime-sama</p>
 
+  <a id="readme-shield-downloads">
+      <img id="readme-shield-downloads-img" src="https://img.shields.io/github/downloads/clarityuwu/Anime-sama-mobile-app/total" alt="Downloads" />
+  </a>
+
 <h1 align="center">
 
 ## Features
