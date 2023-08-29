@@ -23,4 +23,4 @@ Anime-sama mobile app
 
 # Installing
 
-Vous pouvez aller à [Release]() pour télécharger la dernière version de l'application sous format apk 
+Vous pouvez aller à [Release](https://github.com/clarityuwu/Anime-sama-mobile-app/releases) pour télécharger la dernière version de l'application sous format apk 
