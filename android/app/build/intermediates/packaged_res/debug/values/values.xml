@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_launcher_background">#E34141</color>
+    <item name="webView" type="id"/>
     <string name="app_name">Anime-sama</string>
     <string name="custom_url_scheme">com.clarity.animesama</string>
     <string name="package_name">com.clarity.animesama</string>

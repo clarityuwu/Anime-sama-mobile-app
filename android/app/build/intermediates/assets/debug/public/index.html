@@ -2,10 +2,8 @@
 <head>
   <title>Anime-sama</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script.js"></script>
   <style>
-    #search-text {
-      margin-right: 20px;
-    }
     body, html {
       margin: 0;
       padding: 0;
@@ -26,13 +24,5 @@
   <div style="width: 104%; overflow: hidden">
     <iframe id="myIframe" src="https://anime-sama.fr/">
   </div>
-
-  <script>
-      document.addEventListener('deviceready', () => {
-        const iframe = document.getElementById('myIframe');
-        resizeIframe();
-        window.addEventListener('resize', resizeIframe);
-    });
-  </script>
 </body>
 </html>

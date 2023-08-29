@@ -29,3 +29,4 @@ com.clarity.animesama.app-debug-27 /Users/raphaelboullay/animesama-app/android/a
 com.clarity.animesama.app-main-28 /Users/raphaelboullay/animesama-app/android/app/src/main/res
 com.clarity.animesama.app-packaged_res-29 /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/debug
 com.clarity.animesama.app-packaged_res-30 /Users/raphaelboullay/animesama-app/node_modules/@capacitor/android/capacitor/build/intermediates/packaged_res/debug
+com.clarity.animesama.app-packaged_res-31 /Users/raphaelboullay/animesama-app/node_modules/@capacitor/app/android/build/intermediates/packaged_res/debug

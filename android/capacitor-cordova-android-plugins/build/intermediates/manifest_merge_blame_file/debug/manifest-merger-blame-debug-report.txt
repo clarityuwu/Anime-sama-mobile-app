@@ -8,6 +8,12 @@
 7
 8    <application>
 8-->/Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:4:1-6:15
-9    </application>
-10
-11</manifest>
+9        <meta-data
+9-->/Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:1-68
+10            android:name="android.max_aspect"
+10-->/Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:12-45
+11            android:value="2.16" />
+11-->/Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:46-66
+12    </application>
+13
+14</manifest>

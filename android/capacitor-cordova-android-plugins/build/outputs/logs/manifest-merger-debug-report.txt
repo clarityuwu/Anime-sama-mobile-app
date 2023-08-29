@@ -13,6 +13,12 @@ INJECTED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-andr
 		ADDED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:4:1-6:15
+meta-data#android.max_aspect
+ADDED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:1-68
+	android:value
+		ADDED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:46-66
+	android:name
+		ADDED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:12-45
 uses-sdk
 INJECTED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
