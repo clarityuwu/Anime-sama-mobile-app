@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [:capacitor-app] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-status-bar] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-android] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -41,25 +41,25 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/raphaelboullay/.gradle/cache
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/1d02f4c8f5da1ec59343bd1c9ae1dff8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/c4eb8610416ba9fcff7203d70109fbae/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.apache.cordova:framework:10.1.1] /Users/raphaelboullay/.gradle/caches/transforms-3/05c878bccf3e6fff3e743a9590f85fe9/transformed/framework-10.1.1/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:5:5-35:19
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:5:5-36:19
 MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-12:19
 MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-12:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
@@ -91,13 +91,15 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/raphaelboullay/.grad
 	android:theme
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.clarity.animesama.MainActivity
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:14:9-33:20
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:14:9-34:20
 	android:label
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:17:13-56
 	android:launchMode
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:19:13-44
 	android:exported
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:20:13-36
+	android:supportsPictureInPicture
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:21:13-52
 	android:configChanges
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:15:13-129
 	android:theme
@@ -105,35 +107,35 @@ ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManif
 	android:name
 		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:16:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:22:13-25:29
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:www.anime-sama.fr+data:scheme:http
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.VIEW
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.BROWSABLE
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:17-78
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:17-78
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:27-75
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:27-75
 data
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:17-80
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:17-80
 	android:host
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:45-77
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:45-77
 	android:scheme
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:23-44
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:23-44
 uses-permission#android.permission.INTERNET
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:39:5-67
+ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:5-67
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:39:22-64
+		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:22-64
 uses-sdk
 INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml

@@ -4,5 +4,15 @@
 	"webDir": "www",
 	"server": {
 		"androidScheme": "https"
+	},
+	"android": {
+		"featureFlags": {
+			"pip.enabled": true
+		}
+	},
+	"plugins": {
+		"StatusBar": {
+			"backgroundColor": "#33000000"
+		}
 	}
 }

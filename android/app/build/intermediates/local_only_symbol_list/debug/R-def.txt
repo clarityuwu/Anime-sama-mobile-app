@@ -4,6 +4,7 @@ color ic_launcher_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable splash
+id frameLayout
 id webView
 layout activity_main
 mipmap ic_launcher

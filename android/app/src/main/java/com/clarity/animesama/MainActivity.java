@@ -1,10 +1,7 @@
 package com.clarity.animesama;
-
 import android.os.Bundle;
 import android.view.View;
-
 import com.getcapacitor.BridgeActivity;
-
 public class MainActivity extends BridgeActivity {
 
     @Override
