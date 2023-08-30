@@ -6,7 +6,7 @@
 Anime-sama mobile app
 </h1>
 
-<p align="center">Gratuit et open-source application du site Anime-sama</p>
+<p align="center">Gratuit et open-source application du site Anime-sama NON OFFICIEL !!!</p>
 
 <h1 align="center">
 
