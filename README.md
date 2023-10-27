@@ -18,6 +18,9 @@ Anime-sama mobile app
 
 ## Todo
 
+- [ ] Notification lors de nouvel épisode / nouvel saison
+- [ ] Floating button avec favoris home
+- [ ] Fix le bug des loader qui ne marche pas
 - [ ] Play Store
 - [ ] iOS
 
