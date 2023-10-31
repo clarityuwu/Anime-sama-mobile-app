@@ -1,13 +1,27 @@
 -- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:grantUriPermissions
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:32:13-47
+	android:authorities
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:30:13-64
+	android:exported
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:29:13-62
 manifest
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-MERGED from [:capacitor-app] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:capacitor-status-bar] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:capacitor-android] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [:capacitor-app] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-keyboard] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-splash-screen] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-status-bar] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-android] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/acb0279fa605e581f304fa8780c50bc3/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/8bb8b13c1438848676861a1388a97eb3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/32d85a34682b2d04b9faab0e5b16ad91/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -41,27 +55,27 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/raphaelboullay/.gradle/cache
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/1d02f4c8f5da1ec59343bd1c9ae1dff8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/c4eb8610416ba9fcff7203d70109fbae/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.apache.cordova:framework:10.1.1] /Users/raphaelboullay/.gradle/caches/transforms-3/05c878bccf3e6fff3e743a9590f85fe9/transformed/framework-10.1.1/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:5:5-36:19
-MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-12:19
-MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-12:19
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:4:5-37:19
+MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-9:19
+MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-9:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
@@ -77,77 +91,73 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/raphaelboullay/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:9:9-41
-	android:hardwareAccelerated
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:6:9-43
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:7:9-41
 	android:roundIcon
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:8:9-54
 	android:icon
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:6:9-56
 	android:allowBackup
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:12:9-40
-activity#com.clarity.animesama.MainActivity
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:14:9-34:20
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:10:9-40
+activity#io.animesama.clarity.MainActivity
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:12:9-26:20
 	android:label
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:17:13-56
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:15:13-39
 	android:launchMode
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:19:13-44
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:18:13-43
 	android:exported
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:20:13-36
-	android:supportsPictureInPicture
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:21:13-52
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:19:13-36
 	android:configChanges
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:15:13-129
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:13:13-137
+	android:windowFullscreen
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:17:13-44
 	android:theme
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:18:13-71
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:16:13-71
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:16:13-62
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:14:13-61
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:27-74
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:www.anime-sama.fr+data:scheme:http
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:27:13-31:29
-action#android.intent.action.VIEW
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:17-69
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:23:27-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:40:3-76
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:25-66
-category#android.intent.category.BROWSABLE
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:17-78
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:40:20-73
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:41:3-78
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:27-75
-data
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:17-80
-	android:host
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:45-77
-	android:scheme
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:23-44
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:41:20-75
 uses-permission#android.permission.INTERNET
-ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:5-67
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:42:3-65
 	android:name
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:22-64
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:42:20-62
 uses-sdk
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-MERGED from [:capacitor-app] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-app] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-status-bar] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-status-bar] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-android] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-android] /Users/raphaelboullay/animesama-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:capacitor-app] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-app] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-keyboard] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-keyboard] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-splash-screen] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-splash-screen] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-status-bar] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-status-bar] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/acb0279fa605e581f304fa8780c50bc3/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/acb0279fa605e581f304fa8780c50bc3/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/8bb8b13c1438848676861a1388a97eb3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
@@ -214,22 +224,26 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/raphaelbo
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/c4eb8610416ba9fcff7203d70109fbae/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [org.apache.cordova:framework:10.1.1] /Users/raphaelboullay/.gradle/caches/transforms-3/05c878bccf3e6fff3e743a9590f85fe9/transformed/framework-10.1.1/AndroidManifest.xml:25:5-44
 MERGED from [org.apache.cordova:framework:10.1.1] /Users/raphaelboullay/.gradle/caches/transforms-3/05c878bccf3e6fff3e743a9590f85fe9/transformed/framework-10.1.1/AndroidManifest.xml:25:5-44
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
-meta-data#android.max_aspect
-ADDED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
-	android:value
-		ADDED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:33:13-35:64
+	android:resource
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-51
 	android:name
-		ADDED from [:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-46
+		ADDED from /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-67
+uses-permission#android.permission.VIBRATE
+ADDED from [:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from [:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-63
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
@@ -264,7 +278,7 @@ ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/tran
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
-permission#com.clarity.animesama.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
@@ -274,7 +288,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
-uses-permission#com.clarity.animesama.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:22-94

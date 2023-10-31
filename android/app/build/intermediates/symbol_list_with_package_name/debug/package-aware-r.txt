@@ -1,4 +1,4 @@
-com.clarity.animesama
+io.ionic.starter
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -764,7 +764,6 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment_container_view_tag
-id frameLayout
 id group_divider
 id home
 id homeAsUp
@@ -860,7 +859,6 @@ id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible_removing_fragment_view_tag
-id webView
 id webview
 id withText
 id wrap_content
@@ -1328,6 +1326,9 @@ style Widget_AppCompat_Toolbar_Button_Navigation
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
+style capacitor_default_style
+style capacitor_full_screen_style
+style capacitor_immersive_style
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

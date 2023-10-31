@@ -763,7 +763,6 @@ int id fill_horizontal 0x7f080059
 int id fill_vertical 0x7f08005a
 int id forever 0x7f08005b
 int id fragment_container_view_tag 0x7f08005c
-int id frameLayout 0x7f0800c0
 int id group_divider 0x7f08005d
 int id home 0x7f08005e
 int id homeAsUp 0x7f08005f
@@ -859,10 +858,9 @@ int id view_tree_on_back_pressed_dispatcher_owner 0x7f0800b8
 int id view_tree_saved_state_registry_owner 0x7f0800b9
 int id view_tree_view_model_store_owner 0x7f0800ba
 int id visible_removing_fragment_view_tag 0x7f0800bb
-int id webView 0x7f0800bc
-int id webview 0x7f0800bd
-int id withText 0x7f0800be
-int id wrap_content 0x7f0800bf
+int id webview 0x7f0800bc
+int id withText 0x7f0800bd
+int id wrap_content 0x7f0800be
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer cancel_button_image_alpha 0x7f090002
@@ -1327,6 +1325,9 @@ int style Widget_AppCompat_Toolbar_Button_Navigation 0x7f0e0168
 int style Widget_Compat_NotificationActionContainer 0x7f0e0169
 int style Widget_Compat_NotificationActionText 0x7f0e016a
 int style Widget_Support_CoordinatorLayout 0x7f0e016b
+int style capacitor_default_style 0x7f0e016c
+int style capacitor_full_screen_style 0x7f0e016d
+int style capacitor_immersive_style 0x7f0e016e
 int[] styleable ActionBar { 0x7f030033, 0x7f030034, 0x7f030035, 0x7f03005d, 0x7f03005e, 0x7f03005f, 0x7f030060, 0x7f030061, 0x7f030062, 0x7f030065, 0x7f03006a, 0x7f03006b, 0x7f03007e, 0x7f030090, 0x7f030091, 0x7f030092, 0x7f030093, 0x7f030094, 0x7f030099, 0x7f03009c, 0x7f0300b7, 0x7f0300bf, 0x7f0300cb, 0x7f0300cf, 0x7f0300d0, 0x7f0300ef, 0x7f0300f2, 0x7f03010e, 0x7f030117 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

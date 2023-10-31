@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.clarity.animesama.app-mergeDebugResources-24:/values-my/values-my.xml",
+            "outputFile": "io.ionic.starter.app-mergeDebugResources-24:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/Users/raphaelboullay/.gradle/caches/transforms-3/8bb8b13c1438848676861a1388a97eb3/transformed/appcompat-1.6.1/res/values-my/values-my.xml",

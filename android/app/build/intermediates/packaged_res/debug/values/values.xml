@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ic_launcher_background">#E34141</color>
-    <item name="webView" type="id"/>
-    <string name="app_name">Anime-sama</string>
-    <string name="custom_url_scheme">com.clarity.animesama</string>
-    <string name="package_name">com.clarity.animesama</string>
-    <string name="title_activity_main">Anime-sama</string>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <string name="app_name">Anime-Sama</string>
+    <string name="custom_url_scheme">io.animesama.clarity</string>
+    <string name="package_name">io.animesama.clarity</string>
+    <string name="title_activity_main">Anime-Sama</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>

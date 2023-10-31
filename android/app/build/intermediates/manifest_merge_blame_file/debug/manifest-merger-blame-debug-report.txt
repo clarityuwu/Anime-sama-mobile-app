@@ -1,171 +1,167 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.clarity.animesama"
+3    package="io.ionic.starter"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+8-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml
+9-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml
 10
 11    <!-- Permissions -->
-12
-13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:5-67
-13-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:40:22-64
-14
-15    <permission
-15-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
-16        android:name="com.clarity.animesama.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
-17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
-18
-19    <uses-permission android:name="com.clarity.animesama.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:40:3-76
+12-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:40:20-73
+13    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+13-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:41:3-78
+13-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:41:20-75
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:42:3-65
+14-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:42:20-62
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-66
+15-->[:capacitor-haptics] /Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-63
+16
+17    <permission
+17-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
+18        android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
 20
-21    <application
-21-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:5:5-36:19
-22        android:allowBackup="true"
-22-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:7:9-35
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
-24        android:debuggable="true"
-25        android:hardwareAccelerated="true"
-25-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:6:9-43
-26        android:icon="@mipmap/ic_launcher"
-26-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:8:9-43
-27        android:label="@string/app_name"
-27-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:9:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:10:9-54
-29        android:supportsRtl="true"
-29-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:11:9-35
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme" >
-31-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:12:9-40
-32        <activity
-32-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:14:9-34:20
-33            android:name="com.clarity.animesama.MainActivity"
-33-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:16:13-62
-34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
-34-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:15:13-129
-35            android:exported="true"
-35-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:20:13-36
-36            android:label="@string/title_activity_main"
-36-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:17:13-56
-37            android:launchMode="singleTask"
-37-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:19:13-44
-38            android:supportsPictureInPicture="true"
-38-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:21:13-52
-39            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-39-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:18:13-71
-40            <intent-filter>
-40-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:23:13-26:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:17-69
-41-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:24:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:17-77
-43-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:25:27-74
-44            </intent-filter>
-45            <intent-filter>
-45-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:27:13-31:29
-46                <action android:name="android.intent.action.VIEW" />
-46-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:17-69
-46-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:28:25-66
+21    <uses-permission android:name="io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:4:5-37:19
+24        android:allowBackup="true"
+24-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:5:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.10.0] /Users/raphaelboullay/.gradle/caches/transforms-3/4084e7bcb4a1738e1ff26326a1997c6e/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/ic_launcher_background"
+27-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:6:9-56
+28        android:label="@string/app_name"
+28-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:7:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:8:9-54
+30        android:supportsRtl="true"
+30-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:9:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:10:9-40
+33        <activity
+33-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:12:9-26:20
+34            android:name="io.animesama.clarity.MainActivity"
+34-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:14:13-61
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|density|uiMode"
+35-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:13:13-137
+36            android:exported="true"
+36-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:19:13-36
+37            android:label="Anime-Sama"
+37-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:15:13-39
+38            android:launchMode="singleTop"
+38-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:18:13-43
+39            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+39-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:16:13-71
+40            android:windowFullscreen="true" >
+40-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:17:13-44
+41            <intent-filter>
+41-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:21:13-24:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:22:17-69
+42-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:22:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:23:17-77
+44-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:23:27-74
+45            </intent-filter>
+46        </activity>
 47
-48                <category android:name="android.intent.category.BROWSABLE" />
-48-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:17-78
-48-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:29:27-75
-49
-50                <data
-50-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:17-80
-51                    android:host="www.anime-sama.fr"
-51-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:45-77
-52                    android:scheme="http" />
-52-->/Users/raphaelboullay/animesama-app/android/app/src/main/AndroidManifest.xml:30:23-44
-53            </intent-filter>
-54            <!-- Add more intent filters if needed for other schemes/hosts -->
-55
-56        </activity>
-57
-58        <meta-data
-58-->[:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
-59            android:name="android.max_aspect"
-59-->[:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-46
-60            android:value="2.16" />
-60-->[:capacitor-cordova-android-plugins] /Users/raphaelboullay/animesama-app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-64            android:authorities="com.clarity.animesama.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-72            <meta-data
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-74                android:value="androidx.startup" />
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-75        </provider>
-76
-77        <receiver
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-79            android:directBootAware="false"
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-80            android:enabled="true"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-81            android:exported="true"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-82            android:permission="android.permission.DUMP" >
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-88            </intent-filter>
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-91            </intent-filter>
-92            <intent-filter>
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-94            </intent-filter>
-95        </receiver>
-96    </application>
-97
-98</manifest>
+48        <provider
+49            android:name="androidx.core.content.FileProvider"
+49-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:29:13-62
+50            android:authorities="io.ionic.starter.fileprovider"
+50-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:30:13-64
+51            android:exported="false"
+51-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:31:13-37
+52            android:grantUriPermissions="true" >
+52-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:32:13-47
+53            <meta-data
+53-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:33:13-35:64
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-67
+55                android:resource="@xml/file_paths" />
+55-->/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-51
+56        </provider>
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+59            android:authorities="io.ionic.starter.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/raphaelboullay/.gradle/caches/transforms-3/bc4e404d2e4e27a8333e074e645fe6c4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/raphaelboullay/.gradle/caches/transforms-3/6965ddfd7c9bb67e76de74f23369d3cb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/raphaelboullay/.gradle/caches/transforms-3/a916dcd0a76c646859857390ab72a1c7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>

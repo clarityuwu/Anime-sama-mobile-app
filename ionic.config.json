@@ -1,0 +1,7 @@
+{
+  "name": "anime-sama",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

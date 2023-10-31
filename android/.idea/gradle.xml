@@ -7,6 +7,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/gradle/gradle-8.3" />
         <option name="gradleJvm" value="Embedded JDK" />
         <option name="modules">
           <set>
@@ -14,6 +15,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/capacitor-cordova-android-plugins" />
             <option value="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor" />
+            <option value="$PROJECT_DIR$/../node_modules/@capacitor/app/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@capacitor/haptics/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@capacitor/keyboard/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@capacitor/splash-screen/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@capacitor/status-bar/android" />
           </set>
         </option>
       </GradleProjectSettings>
