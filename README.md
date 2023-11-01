@@ -21,6 +21,7 @@ Anime-sama mobile app
 - [✅] Notification lors de nouvel épisode / nouvel saison
 - [✅] Floating button avec Home et Saison
 - [✅] Fix le bug des loader qui ne marche pas
+- [ ] PoP Up De MAJ
 - [ ] PIP (picture-in-picture)
 - [ ] Play Store
 - [ ] iOS
