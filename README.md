@@ -14,13 +14,14 @@ Anime-sama mobile app
 
 - Support pour `android`, `iOS (soon)`
 - Application lègère rapide et optimisé
-- Aucune différence de temps d'ouverture par rapport a votre navigateur tout cela avec une facilité d'accès décuplée
+- Aucune différence de temps d'ouverture par rapport a votre navigateur tout cela avec une facilité d'accès décuplée et des features au top !
 
 ## Todo
 
-- [ ] Notification lors de nouvel épisode / nouvel saison
-- [ ] Floating button avec favoris home
-- [ ] Fix le bug des loader qui ne marche pas
+- [✅] Notification lors de nouvel épisode / nouvel saison
+- [✅] Floating button avec Home et Saison
+- [✅] Fix le bug des loader qui ne marche pas
+- [ ] PIP (picture-in-picture)
 - [ ] Play Store
 - [ ] iOS
 
