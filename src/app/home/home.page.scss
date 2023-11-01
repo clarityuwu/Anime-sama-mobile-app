@@ -11,3 +11,20 @@ iframe {
   height: 100%;
   border: none;
 }
+
+ion-fab-button {
+  position: fixed; /* Change 'absolute' to 'fixed' for better positioning */
+  bottom: 20px;
+}
+
+ion-fab-button:nth-child(1) {
+  right: 23%; /* Use a percentage value for the first button */
+}
+
+ion-fab-button:nth-child(2) {
+  right: 43%; /* Use a percentage value for the second button */
+}
+
+ion-fab-button:nth-child(3) {
+  right: 63%; /* Use a percentage value for the third button */
+}

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.ionic.starter.app-mergeDebugResources-24:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "io.animesama.clarity.app-mergeDebugResources-29:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/Users/raphaelboullay/.gradle/caches/transforms-3/8bb8b13c1438848676861a1388a97eb3/transformed/appcompat-1.6.1/res/values-en-rIN/values-en-rIN.xml",

@@ -1,7 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  plugins: {
+    PushNotifications: {
+      presentationOptions: ["badge", "sound", "alert"],
+    },
+  },
+  appId: 'io.animesama.clarity',
   appName: 'anime-sama',
   webDir: 'www',
   server: {

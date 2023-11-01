@@ -1,4 +1,5 @@
 import { App as CapacitorApp } from '@capacitor/core';
+
   document.addEventListener('deviceready', async () => {
     const iframe = document.getElementById('myIframe');
     iframe.addEventListener('load', () => {
@@ -43,3 +44,4 @@ function exitFullscreen(doc) {
   // **Unset the fullscreen flag in the Capacitor app**
   CapacitorApp.setFullscreen(false);
 }
+

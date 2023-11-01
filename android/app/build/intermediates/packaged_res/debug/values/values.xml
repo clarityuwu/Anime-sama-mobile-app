@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_launcher_background">#FFFFFF</color>
+    <item name="webView" type="id"/>
     <string name="app_name">Anime-Sama</string>
     <string name="custom_url_scheme">io.animesama.clarity</string>
+    <string name="gcm_defaultSenderId" translatable="false">1072455652121</string>
+    <string name="google_api_key" translatable="false">AIzaSyCT83AFfGeDB4ntCieKDuMLffhNr9IANQA</string>
+    <string name="google_app_id" translatable="false">1:1072455652121:android:3997c8467570f0b0b62b88</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCT83AFfGeDB4ntCieKDuMLffhNr9IANQA</string>
+    <string name="google_storage_bucket" translatable="false">anime-sama-1464a.appspot.com</string>
     <string name="package_name">io.animesama.clarity</string>
+    <string name="project_id" translatable="false">anime-sama-1464a</string>
     <string name="title_activity_main">Anime-Sama</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         

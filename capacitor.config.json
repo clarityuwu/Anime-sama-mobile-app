@@ -1,5 +1,5 @@
 {
-  "appId": "com.clarity.animesama",
+  "appId": "io.animesama.clarity",
   "appName": "Anime-sama",
   "webDir": "www",
   "server": {
@@ -11,8 +11,8 @@
     }
   },
   "plugins": {
-    "StatusBar": {
-      "backgroundColor": "#33000000"
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
     }
   }
 }
