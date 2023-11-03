@@ -1,10 +1,13 @@
 R_DEF: Internal format may change without notice
 local
 color ic_launcher_background
+color ic_launcher_foreground
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable monochrome_background
 drawable notif_background
+drawable notification
+drawable notification_icon
 drawable splash
 id webView
 layout activity_main
@@ -15,7 +18,6 @@ mipmap ic_launcher_round
 mipmap monochrome
 mipmap monochrome_foreground
 mipmap monochrome_round
-mipmap notif
 mipmap notif_foreground
 mipmap notif_round
 mipmap notifanimesama

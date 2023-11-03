@@ -1,4 +1,4 @@
-#Wed Nov 01 18:06:27 CET 2023
+#Fri Nov 03 14:15:17 CET 2023
 base.0=/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex
 base.2=/Users/raphaelboullay/Documents/GitHub/Anime-sama-mobile-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex

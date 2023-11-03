@@ -6,6 +6,8 @@ import {
   Token,
 } from '@capacitor/push-notifications';
 import { OpenNativeSettings } from '@awesome-cordova-plugins/open-native-settings';
+import { App } from '@capacitor/app';
+import { Platform } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -14,8 +16,25 @@ import { OpenNativeSettings } from '@awesome-cordova-plugins/open-native-setting
 })
 
 export class HomePage implements OnInit {
-
+  constructor(private platform: Platform) { }
   ngOnInit() {
+
+    let backButtonCount = 0;
+    let backButtonTimeout: ReturnType<typeof setTimeout> | null = null;
+
+    this.platform.backButton.subscribeWithPriority(0, () => {
+      if (backButtonTimeout !== null) {
+        clearTimeout(backButtonTimeout);
+      }
+      backButtonTimeout = setTimeout(() => {
+        backButtonCount = 0;
+      }, 2000);
+      backButtonCount++;
+      if (backButtonCount === 2) {
+        App.exitApp();
+      }
+    });
+    
     PushNotifications.requestPermissions().then(result => {
       if (result.receive === 'granted') {
         PushNotifications.register();
@@ -47,6 +66,7 @@ export class HomePage implements OnInit {
         alert('Push action performed: ' + JSON.stringify(notification));
       },
     );
+
   }
 
   goToMainPage() {
@@ -62,10 +82,6 @@ export class HomePage implements OnInit {
       iframe.src = 'https://anime-sama.fr/planning/';
     }
   }
-
-  addToNotification() {
-    }
-
   animenotiflist = [
     { id: 'deadmount', name: 'Dead Mount Death Play' },
     { id: 'tokyorevengers', name: 'Tokyo Revengers' },
@@ -77,6 +93,7 @@ export class HomePage implements OnInit {
     { id: 'spy', name: 'Spy X Family' },
     { id: 'ragna', name: 'Ragna Crimson' },
     { id: 'shangri', name: 'Shangri-La Frontier' },
+    { id: 'test', name: 'Test' },
   ];
     
   

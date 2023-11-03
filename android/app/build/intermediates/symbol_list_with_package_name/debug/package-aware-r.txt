@@ -411,6 +411,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color ic_launcher_foreground
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -695,6 +696,7 @@ drawable ic_launcher_foreground
 drawable icon_background
 drawable monochrome_background
 drawable notif_background
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -702,6 +704,7 @@ drawable notification_bg_low_normal
 drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
+drawable notification_icon
 drawable notification_icon_background
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
@@ -975,7 +978,6 @@ mipmap ic_launcher_round
 mipmap monochrome
 mipmap monochrome_foreground
 mipmap monochrome_round
-mipmap notif
 mipmap notif_foreground
 mipmap notif_round
 mipmap notifanimesama
