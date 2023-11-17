@@ -4,7 +4,7 @@
             "outputFile": "io.animesama.clarity.app-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/raphaelboullay/.gradle/caches/transforms-3/8bb8b13c1438848676861a1388a97eb3/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\clq\\.gradle\\caches\\transforms-3\\8bb8b13c1438848676861a1388a97eb3\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

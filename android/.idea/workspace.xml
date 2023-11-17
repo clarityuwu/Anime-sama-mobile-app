@@ -9,121 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e669861-08de-4e11-9086-ff580b928187" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/notification.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/2656b95320060596d1df74502a227d8ca2145b31/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/15.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/17.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/18.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.angular/cache/16.2.8/angular-webpack/39fe36dd05dbc5fbe631dbd681467c769bbb0aa7/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compressed_assets/debug/out/assets/public/index.html.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compressed_assets/debug/out/assets/public/index.html.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_config.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_config.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/xml/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/notif.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/notif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/notifanimesama.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/notifanimesama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/notif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/notif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/notif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/notif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capacitor-cordova-android-plugins/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor-firebase/messaging/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor-firebase/messaging/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor-firebase/messaging/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor-firebase/messaging/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/app/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/app/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/haptics/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/haptics/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/keyboard/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/keyboard/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/push-notifications/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/push-notifications/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/splash-screen/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/splash-screen/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/status-bar/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/status-bar/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/home/home.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/app/home/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/home/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../www/3rdpartylicenses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/5630.7c76f4fde6875d1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/main.a2d85c81bc5b8360.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/runtime.cea931989cca2681.js" beforeDir="false" />
-    </list>
+    <list default="true" id="3e669861-08de-4e11-9086-ff580b928187" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.1.104:42231]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-29201FDH30051F-besvRt._adb-tls-connect._tcp]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -145,6 +37,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../keyapk" />
@@ -205,7 +104,6 @@
       <option name="ALL_USERS" value="false" />
       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="CLEAR_APP_STORAGE" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -221,6 +119,8 @@
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Auto>
       <Hybrid>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -228,14 +128,21 @@
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Hybrid>
-      <Java />
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
       <Native>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />

@@ -1,322 +1,226 @@
 [
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-land-mdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-land-mdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxxhdpi_notification_icon.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxxhdpi\\notification_icon.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-land-hdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-land-hdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_ic_launcher_monochrome.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\ic_launcher_monochrome.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xhdpi_notification_icon.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xhdpi\\notification_icon.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-port-xhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-port-xhdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xxhdpi_notification_icon.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xxhdpi/notification_icon.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-port-mdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-port-mdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-mdpi_notification.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-mdpi/notification.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-land-mdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-land-mdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-land-xxxhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-land-xxxhdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-port-hdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-port-hdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xxxhdpi_notification.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xxxhdpi/notification.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxhdpi_notification_icon.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxhdpi\\notification_icon.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_monochrome_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/monochrome_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\xml\\file_paths.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_notif_background.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\notif_background.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_ic_launcher_animesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/ic_launcher_animesama.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xxhdpi_notification.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xxhdpi/notification.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\xml_config.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\xml\\config.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_notifanimesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/notifanimesama.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_mono.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\mono.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-port-xhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-port-xhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xhdpi_notification_icon.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xhdpi/notification_icon.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-anydpi-v26_notif_round.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-anydpi-v26/notif_round.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_notif_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/notif_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xhdpi_notification.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xhdpi\\notification.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_uwu.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\uwu.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_notif_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/notif_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-mdpi_notification_icon.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-mdpi\\notification_icon.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_monochrome_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/monochrome_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_notif_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/notif_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_monochrome_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/monochrome_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_back.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\back.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_monochrome_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/monochrome_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-anydpi-v26_monochrome_round.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-anydpi-v26/monochrome_round.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxhdpi_notification.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxhdpi\\notification.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-land-xxhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-land-xxhdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxxhdpi_ic_stat_name.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxxhdpi\\ic_stat_name.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_monochrome.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/monochrome.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-land-xxhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-land-xxhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_monochrome.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/monochrome.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-port-xxxhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-port-xxxhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_monochrome.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/monochrome.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_ic_launchenochrome.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\ic_launchenochrome.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_animesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/ic_launcher_animesama.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-hdpi_notification.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-hdpi\\notification.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/xml_file_paths.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/xml/file_paths.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-hdpi_notification_icon.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-hdpi\\notification_icon.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-port-mdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-port-mdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_ic_launcher_mochrome.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\ic_launcher_mochrome.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_ic_launcher_animesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/ic_launcher_animesama.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-mdpi_ic_stat_name.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-mdpi\\ic_stat_name.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_monochrome_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/monochrome_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable_monochrome_background.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable/monochrome_background.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xxxhdpi_notification_icon.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xxxhdpi/notification_icon.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-port-hdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-port-hdpi/splash.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-port-xxhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-port-xxhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_monochrome_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/monochrome_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_monochrome_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/monochrome_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-land-xxxhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-land-xxxhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_notif_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/notif_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable_monochrome_background.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable\\monochrome_background.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_notif_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/notif_foreground.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_animesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/ic_launcher_animesama.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxxhdpi_notification.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxxhdpi\\notification.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_notif_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/notif_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xxhdpi_ic_stat_name.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xxhdpi\\ic_stat_name.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_monochrome.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/monochrome.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-xhdpi_ic_stat_name.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-xhdpi\\ic_stat_name.png"
     },
     {
-        "merged": "io.animesama.clarity.app-merged_res-31:/xml_config.xml.flat",
-        "source": "io.animesama.clarity.app-main-33:/xml/config.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-mdpi_notification.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-mdpi\\notification.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_notif_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/notif_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-anydpi-v26_monochrome.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-anydpi-v26/monochrome.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-land-xhdpi_splash.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-land-xhdpi\\splash.png"
     },
     {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_monochrome_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/monochrome_foreground.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_ic_launcher_animesama.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/ic_launcher_animesama.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-hdpi_notification.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-hdpi/notification.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-mdpi_notification_icon.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-mdpi/notification_icon.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-hdpi_notification_icon.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-hdpi/notification_icon.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-land-xhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-land-xhdpi/splash.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-port-xxxhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-port-xxxhdpi/splash.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_notif_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/notif_round.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-port-xxhdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-port-xxhdpi/splash.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable/splash.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_monochrome_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/monochrome_foreground.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxxhdpi_monochrome_foreground.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxxhdpi/monochrome_foreground.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-mdpi_notif_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-mdpi/notif_round.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-xhdpi_notification.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-xhdpi/notification.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xhdpi_monochrome.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xhdpi/monochrome.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/xml_config.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/xml/config.xml"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/mipmap-xxhdpi_notif_round.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/mipmap-xxhdpi/notif_round.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable-land-hdpi_splash.png.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable-land-hdpi/splash.png"
-    },
-    {
-        "merged": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-merged_res-31:/drawable_notif_background.xml.flat",
-        "source": "/Users/raphaelboullay/.gradle/daemon/8.0.2/io.animesama.clarity.app-main-33:/drawable/notif_background.xml"
+        "merged": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-merged_res-31:\\drawable-hdpi_ic_stat_name.png.flat",
+        "source": "C:\\Users\\clq\\.gradle\\daemon\\8.0.2\\io.animesama.clarity.app-main-33:\\drawable-hdpi\\ic_stat_name.png"
     }
 ]
