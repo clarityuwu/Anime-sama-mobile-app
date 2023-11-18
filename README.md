@@ -26,6 +26,6 @@ Anime-sama mobile app
 - [ ] Play Store
 - [ ] iOS
 
-# Installing
+# Installation
 
 Vous pouvez aller à [Release](https://github.com/clarityuwu/Anime-sama-mobile-app/releases) pour télécharger la dernière version de l'application sous format apk 
