@@ -19,13 +19,10 @@ Anime-sama mobile app
 - Meilleur plein écran que en de base sur le site
 - Des boutons pour faciliter votre navigation sur votre site préférée
 - Des notifications pour vos animes préférées ! (uniquement crée si vous clicker sur le bouton notification)
+- Des automatisations user friendly !
 
 ## Todo
 
-- [✅] Notification lors de nouvel épisode / nouvel saison
-- [✅] Floating button avec Home et Saison
-- [✅] Fix le bug des loader qui ne marche pas
-- [ ] PoP Up De MAJ (Quand sera sur le play store)
 - [ ] Play Store
 - [ ] iOS
 
