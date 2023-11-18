@@ -6,7 +6,6 @@ drawable ic_launchenochrome
 drawable ic_launcher_mochrome
 drawable ic_launcher_monochrome
 drawable ic_stat_name
-drawable splash
 id webView
 layout activity_main
 mipmap ic_launcher
@@ -24,6 +23,5 @@ string project_id
 string title_activity_main
 style AppTheme
 style AppTheme.NoActionBar
-style AppTheme.NoActionBarLaunch
 xml config
 xml file_paths

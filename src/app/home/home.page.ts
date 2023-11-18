@@ -10,6 +10,7 @@ import { App } from '@capacitor/app';
 import { Platform } from '@ionic/angular';
 import { ScreenOrientation } from "@capacitor/screen-orientation";
 import Shepherd from 'shepherd.js'
+import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
 
 @Component({
   selector: 'app-home',
@@ -19,10 +20,16 @@ import Shepherd from 'shepherd.js'
 
 
 export class HomePage implements OnInit {
+  public appUpdateInfo: AppUpdateInfo | undefined;
+
+  private readonly GH_URL =
+    'https://github.com/clarityuwu/Anime-sama-mobile-app/releases'; // GitHub URL for releases
+  
   constructor(private platform: Platform,) { }
   
   
   ngOnInit() {
+    // Check if the tour has already been shown and if not, show it
     if (!localStorage.getItem('tourShown')) {
       const tour = new Shepherd.Tour({
         defaultStepOptions: {
@@ -95,7 +102,23 @@ export class HomePage implements OnInit {
       tour.start();
       localStorage.setItem('tourShown', 'true');
     }
-  
+
+    // Check if the app is up to date and if not, show the alert
+    if (this.platform.is('capacitor')) {
+      AppUpdate.getAppUpdateInfo().then( async (appUpdateInfo) => {
+        this.appUpdateInfo = appUpdateInfo;
+        if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
+          const choice = await this.presentUpdateAlert();
+          if (choice === 'GitHub') {
+            window.open('https://github.com/clarityuwu/Anime-sama-mobile-app/releases', '_blank');
+          } else if (choice === 'PlayStore') {
+            AppUpdate.openAppStore();
+          }
+        }
+      });
+    }
+
+    // Lock screen orientation to landscape when fullscreen
     document.addEventListener('fullscreenchange', async () => {
       const iframe = document.getElementById('myIframe');
       if (document.fullscreenElement === iframe) {
@@ -113,7 +136,7 @@ export class HomePage implements OnInit {
       }
     });
   
-  
+    // Go back when the back button is pressed
     App.addListener('backButton', ({ canGoBack }) => {
      console.log(canGoBack);
       if(canGoBack){
@@ -122,7 +145,7 @@ export class HomePage implements OnInit {
     }
     );
 
-    
+    // Initialize Push Notifications
     PushNotifications.requestPermissions().then(result => {
       if (result.receive === 'granted') {
         PushNotifications.register();
@@ -148,17 +171,17 @@ export class HomePage implements OnInit {
       },
     );
 
+    // If the user clicks on the notification, go to the main page or if it's an update notification, show the alert
     PushNotifications.addListener(
       'pushNotificationActionPerformed',
       async (notification: ActionPerformed) => {
         const data = notification.notification.data;
-    
         if (data && data['update'] === '1') {
           const choice = await this.presentUpdateAlert(); // Call function to present the alert
           if (choice === 'GitHub') {
             window.open('https://github.com/clarityuwu/Anime-sama-mobile-app/releases', '_blank');
           } else if (choice === 'PlayStore') {
-            // Add logic to open Play Store link
+            AppUpdate.openAppStore();
           }
         } else {
           this.goToMainPage();
@@ -167,6 +190,7 @@ export class HomePage implements OnInit {
     );
   }
 
+  // Go to the main page when fab button is clicked
   goToMainPage() {
     const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
     if (iframe) {
@@ -174,12 +198,15 @@ export class HomePage implements OnInit {
     }
   }
 
+  // Go to the main page when fab button is clicked
   goToReleasedPage() {
     const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
     if (iframe) {
       iframe.src = 'https://anime-sama.fr/planning/';
     }
   }
+
+  // Notification channel list
   animenotiflist = [
     { id: 'deadmount', name: 'Dead Mount Death Play' },
     { id: 'tokyorevengers', name: 'Tokyo Revengers' },
@@ -194,7 +221,7 @@ export class HomePage implements OnInit {
     { id: 'update', name: 'Update' },
   ];
     
-  
+  // Create notification channels
   createNotificationChannels = async () => {
     const channels = await PushNotifications.listChannels();
     for (const channel of channels.channels) {
@@ -213,6 +240,7 @@ export class HomePage implements OnInit {
     await OpenNativeSettings.open('notification_id');
   };
 
+  // Present the update alert
   async presentUpdateAlert(): Promise<string> {
     return new Promise<string>((resolve) => {
       const alert = document.createElement('ion-alert');

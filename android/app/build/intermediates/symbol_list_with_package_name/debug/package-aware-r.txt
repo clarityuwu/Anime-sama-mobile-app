@@ -708,7 +708,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable splash
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1046,7 +1045,6 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppTheme
 style AppTheme_NoActionBar
-style AppTheme_NoActionBarLaunch
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

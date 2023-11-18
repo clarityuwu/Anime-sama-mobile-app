@@ -1,0 +1,7 @@
+import { registerPlugin } from '@capacitor/core';
+const AppUpdate = registerPlugin('AppUpdate', {
+    web: () => import('./web').then(m => new m.AppUpdateWeb()),
+});
+export * from './definitions';
+export { AppUpdate };
+//# sourceMappingURL=index.js.map
