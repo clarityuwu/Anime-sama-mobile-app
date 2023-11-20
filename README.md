@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300" src="https://github.com/clarityuwu/Anime-sama-mobile-app/assets/60440820/f71e6dc4-155e-4228-bd75-25d80bf0ba77" alt="Anime-sama logo"/>
+<img width="300" src="https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/AS_border.png" alt="Anime-sama logo"/>
 
 
 <h1 align="center">
@@ -23,6 +23,9 @@ Anime-sama mobile app
 
 ## Todo
 
+- [ ] Téléchargement d'épisode ?
+- [ ] Recommendations du moment ?
+- [ ] Share button (compliqué)
 - [ ] Play Store
 - [ ] iOS
 
