@@ -1,11 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { Platform } from '@ionic/angular';
-import { AppUpdate, AppUpdateInfo } from '@ionic-native/app-update/ngx';
-import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
-import { OpenNativeSettings } from '@ionic-native/open-native-settings/ngx';
-import { Storage } from '@ionic/storage';
-import { PushNotifications, PushNotificationSchema, Token, ActionPerformed } from '@capacitor/push-notifications';
-import Shepherd from 'shepherd.js';
 import { Component, OnInit} from '@angular/core';
 import {
   ActionPerformed,
@@ -25,98 +17,95 @@ import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
+
+
 export class HomePage implements OnInit {
   public appUpdateInfo: AppUpdateInfo | undefined;
 
   private readonly GH_URL =
     'https://github.com/clarityuwu/Anime-sama-mobile-app/releases'; // GitHub URL for releases
-
-  constructor(
-    private platform: Platform,
-    private storage: Storage
-  ) { }
-
-
+  
+  constructor(private platform: Platform,) { }
+  
+  
   ngOnInit() {
     // Check if the tour has already been shown and if not, show it
-    this.storage.get('tourShown').then((tourShown) => {
-      if (!tourShown) {
-        const tour = new Shepherd.Tour({
-          defaultStepOptions: {
-            cancelIcon: {
-              enabled: true
-            },
-            classes: 'shepherd-theme-dark',
-            scrollTo: { behavior: 'smooth', block: 'center' }
+    if (!localStorage.getItem('tourShown')) {
+      const tour = new Shepherd.Tour({
+        defaultStepOptions: {
+          cancelIcon: {
+            enabled: true
           },
-          useModalOverlay: true
-        });
+          classes: 'shepherd-theme-dark',
+          scrollTo: { behavior: 'smooth', block: 'center' }
+        },
+        useModalOverlay: true
+      });
 
-        tour.addStep({
-          id: 'createNotificationChannels',
-          text: 'Ce bouton va vous permettre modifier quel anime vous voulez recevoir ! Attention il faut clicker dessus pour créer les notifications !',
-          attachTo: {
-            element: '.fab-button-danger',
-            on: 'bottom'
-          },
-          buttons: [
-            {
-              action: tour.next,
-              text: 'Suivant'
-            }
-          ]
-        });
+      tour.addStep({
+        id: 'createNotificationChannels',
+        text: 'Ce bouton va vous permettre modifier quel anime vous voulez recevoir ! Attention il faut clicker dessus pour créer les notifications !',
+        attachTo: {
+          element: '.fab-button-danger',
+          on: 'bottom'
+        },
+        buttons: [
+          {
+            action: tour.next,
+            text: 'Suivant'
+          }
+        ]
+      });
 
-        tour.addStep({
-          id: 'goToReleasedPage',
-          text: 'Ce bouton va sur la page des derniers anime du moment !',
-          attachTo: {
-            element: '.fab-button-primary',
-            on: 'bottom'
-          },
-          buttons: [
-            {
-              action: tour.next,
-              text: 'Suivant'
-            }
-          ]
-        });
+      tour.addStep({
+        id: 'goToReleasedPage',
+        text: 'Ce bouton va sur la page des derniers anime du moment !',
+        attachTo: {
+          element: '.fab-button-primary',
+          on: 'bottom'
+        },
+        buttons: [
+          {
+            action: tour.next,
+            text: 'Suivant'
+          }
+        ]
+      });
+    
+      tour.addStep({
+        id: 'goToMainPage',
+        text: 'Ce bouton va sur la page principale !',
+        attachTo: {
+          element: '.fab-button-secondary',
+          on: 'bottom'
+        },
+        buttons: [
+          {
+            action: tour.next,
+            text: 'Suivant'
+          }
+        ]
+      });
+    
 
-        tour.addStep({
-          id: 'goToMainPage',
-          text: 'Ce bouton va sur la page principale !',
-          attachTo: {
-            element: '.fab-button-secondary',
-            on: 'bottom'
-          },
-          buttons: [
-            {
-              action: tour.next,
-              text: 'Suivant'
-            }
-          ]
-        });
-
-
-        tour.addStep({
-          id: 'tourComplete',
-          text: 'Le tour est terminé ! Vous pouvez me soutenir en allant sur mon GitHub et en mettant une étoile !',
-          buttons: [
-            {
-              text: 'Open GitHub',
-              action: () => window.open('https://github.com/clarityuwu/Anime-sama-mobile-app', '_blank')
-            }
-          ]
-        });
-
-        tour.start();
-        this.storage.set('tourShown', true);
-      }
-    });
+      tour.addStep({
+        id: 'tourComplete',
+        text: 'Le tour est terminé ! Vous pouvez me soutenir en allant sur mon GitHub et en mettant une étoile !',
+        buttons: [
+          {
+            text: 'Open GitHub',
+            action: () => window.open('https://github.com/clarityuwu/Anime-sama-mobile-app', '_blank')
+          }
+        ]
+      });
+    
+      tour.start();
+      localStorage.setItem('tourShown', 'true');
+    }
 
     // Check if the app is up to date and if not, show the alert
     if (this.platform.is('capacitor')) {
-      AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
+      AppUpdate.getAppUpdateInfo().then( async (appUpdateInfo) => {
         this.appUpdateInfo = appUpdateInfo;
         if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
           const choice = await this.presentUpdateAlert();
@@ -146,14 +135,15 @@ export class HomePage implements OnInit {
         }
       }
     });
-
+  
     // Go back when the back button is pressed
     App.addListener('backButton', ({ canGoBack }) => {
-      console.log(canGoBack);
-      if (canGoBack) {
-        window.history.back();
+     console.log(canGoBack);
+      if(canGoBack){
+       window.history.back();
       }
-    });
+    }
+    );
 
     // Initialize Push Notifications
     PushNotifications.requestPermissions().then(result => {
@@ -163,6 +153,8 @@ export class HomePage implements OnInit {
         console.error('Permission not granted');
       }
     });
+    
+    console.log('Initializing HomePage');
 
     PushNotifications.addListener('registration', (token: Token) => {
       console.log('Push registration success, token: ' + token.value);
@@ -228,7 +220,7 @@ export class HomePage implements OnInit {
     { id: 'shangri', name: 'Shangri-La Frontier' },
     { id: 'update', name: 'Update' },
   ];
-
+    
   // Create notification channels
   createNotificationChannels = async () => {
     const channels = await PushNotifications.listChannels();
@@ -268,10 +260,10 @@ export class HomePage implements OnInit {
           },
         },
       ];
-
+  
       document.body.appendChild(alert);
       return alert.present();
     });
   }
-
+  
 }
