@@ -217,8 +217,8 @@ export class HomePage implements OnInit {
     { id: 'frieren', name: 'Frieren' },
     { id: 'spy', name: 'Spy X Family' },
     { id: 'ragna', name: 'Ragna Crimson' },
-    { id: 'shangri', name: 'Shangri-La Frontier' },
-    { id: 'update', name: 'Update' },
+    { id: 'shangri', name: 'Shangri-La Frontier uwu' },
+    { id: 'update', name: 'Updatetest' },
   ];
     
   // Create notification channels
