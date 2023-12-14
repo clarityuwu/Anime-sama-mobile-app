@@ -27,7 +27,6 @@ export class HomePage implements OnInit {
   
   constructor(private platform: Platform,) { }
   
-  
   ngOnInit() {
     // Check if the tour has already been shown and if not, show it
     if (!localStorage.getItem('tourShown')) {
@@ -103,20 +102,21 @@ export class HomePage implements OnInit {
       localStorage.setItem('tourShown', 'true');
     }
 
-    // Check if the app is up to date and if not, show the alert
-    if (this.platform.is('capacitor')) {
-      AppUpdate.getAppUpdateInfo().then( async (appUpdateInfo) => {
-        this.appUpdateInfo = appUpdateInfo;
-        if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
-          const choice = await this.presentUpdateAlert();
-          if (choice === 'GitHub') {
-            window.open('https://github.com/clarityuwu/Anime-sama-mobile-app/releases', '_blank');
-          } else if (choice === 'PlayStore') {
-            AppUpdate.openAppStore();
-          }
+
+    AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
+      this.appUpdateInfo = appUpdateInfo;
+      if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
+        const choice = await this.presentUpdateAlertplay();
+        if (choice === 'Dismiss') {
+          // Handle the dismiss action here
+        } else if (choice === 'PlayStore') {
+          AppUpdate.openAppStore();
         }
-      });
-    }
+      }
+    }).catch(error => {
+      console.error('Error getting app update info:', error);
+    });
+    
 
     // Lock screen orientation to landscape when fullscreen
     document.addEventListener('fullscreenchange', async () => {
@@ -265,5 +265,30 @@ export class HomePage implements OnInit {
       return alert.present();
     });
   }
+
+  async presentUpdateAlertplay(): Promise<string> {
+    return new Promise<string>((resolve) => {
+      const alert = document.createElement('ion-alert');
+      alert.header = 'Mise à jour disponible';
+      alert.message = 'Une mise à jour est disponible, veillez choisir ou vous voulez la télécharger. Vous pouvez aussi ignorer cette mise à jour mais les notification de anime sera obsolète.';
+      alert.buttons = [
+        {
+          text: 'Dismiss',
+          role: 'cancel',
+          handler: () => {
+            resolve('Dismiss');
+          },
+        },
+        {
+          text: 'Play Store',
+          handler: () => {
+            resolve('PlayStore');
+          },
+        },
+      ];
   
+      document.body.appendChild(alert);
+      return alert.present();
+    });
+  }
 }

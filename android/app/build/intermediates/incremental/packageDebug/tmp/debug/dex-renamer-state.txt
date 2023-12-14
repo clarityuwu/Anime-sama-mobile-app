@@ -1,4 +1,4 @@
-#Thu Dec 14 20:03:39 CET 2023
+#Thu Dec 14 21:24:24 CET 2023
 base.0=C\:\\Users\\clq\\Documents\\GitHub\\Anime-sama-mobile-app\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\clq\\Documents\\GitHub\\Anime-sama-mobile-app\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\14\\classes.dex
 base.10=C\:\\Users\\clq\\Documents\\GitHub\\Anime-sama-mobile-app\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
