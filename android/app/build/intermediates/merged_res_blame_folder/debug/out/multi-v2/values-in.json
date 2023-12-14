@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.animesama.clarity.app-mergeDebugResources-29:/values-in/values-in.xml",
+            "outputFile": "io.animesama.clarity.app-mergeDebugResources-30:/values-in/values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\clq\\.gradle\\caches\\transforms-3\\2d962741d91c910a3db7a5460737cdfe\\transformed\\play-services-base-18.0.1\\res\\values-in\\values.xml",

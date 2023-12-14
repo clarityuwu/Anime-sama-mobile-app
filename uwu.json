@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.animesama.clarity",
+      "sha256_cert_fingerprints":
+        ["EA:28:64:42:54:4B:B7:6F:91:87:5F:EC:84:42:1C:87:86:2B:D7:DF:1E:38:F5:0A:C7:F5:4D:C6:8D:59:B6:44"]
+    }
+  }
+]

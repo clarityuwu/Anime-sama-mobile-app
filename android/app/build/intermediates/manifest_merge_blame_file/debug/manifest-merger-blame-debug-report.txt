@@ -61,274 +61,283 @@
 32-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:7:9-54
 33        android:supportsRtl="true"
 33-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:8:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:9:9-40
-36        <meta-data
-36-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:10:9-13:11
-37            android:name="com.google.firebase.messaging.default_notification_icon"
-37-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:11:13-83
-38            android:resource="@drawable/ic_stat_name" />
-38-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:12:13-54
-39
-40        <activity
-40-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:14:9-26:20
-41            android:name="io.animesama.clarity.MainActivity"
-41-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:16:13-61
-42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|density|uiMode"
-42-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:15:13-137
-43            android:exported="true"
-43-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:21:13-36
-44            android:label="Anime-Sama"
-44-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:17:13-39
-45            android:launchMode="singleTop"
-45-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:20:13-43
-46            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-46-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:18:13-71
-47            android:windowFullscreen="true" >
-47-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:19:13-44
-48            <intent-filter>
-48-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:22:13-25:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:23:17-69
-49-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:23:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:24:17-77
-51-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:24:27-74
-52            </intent-filter>
-53        </activity>
-54
-55        <provider
-56            android:name="androidx.core.content.FileProvider"
-56-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:28:13-62
-57            android:authorities="io.animesama.clarity.fileprovider"
-57-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:29:13-64
-58            android:exported="false"
-58-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:30:13-37
-59            android:grantUriPermissions="true" >
-59-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:31:13-47
-60            <meta-data
-60-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:13-112
-61                android:name="android.support.FILE_PROVIDER_PATHS"
-61-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:24-74
-62                android:resource="@xml/file_paths" />
-62-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:75-109
-63        </provider>
-64
-65        <service
-65-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-16:19
-66            android:name="io.capawesome.capacitorjs.plugins.firebase.messaging.MessagingService"
-66-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-97
-67            android:exported="false" >
-67-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
-68            <intent-filter>
-68-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
-69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-69-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
-69-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
-70            </intent-filter>
-71        </service>
-72        <service
-72-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-14:19
-73            android:name="com.capacitorjs.plugins.pushnotifications.MessagingService"
-73-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-86
-74            android:exported="false" >
-74-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
-75            <intent-filter>
-75-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
-76                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-76-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
-76-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
-77            </intent-filter>
-78        </service>
-79
-80        <receiver
-80-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
-81            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-81-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
-82            android:exported="true"
-82-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
-83            android:permission="com.google.android.c2dm.permission.SEND" >
-83-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
-84            <intent-filter>
-84-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
-85                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-85-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
-85-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
-86            </intent-filter>
-87        </receiver>
-88        <!--
-89             FirebaseMessagingService performs security checks at runtime,
-90             but set to not exported to explicitly avoid allowing another app to call it.
-91        -->
-92        <service
-92-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
-93            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-93-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
-94            android:directBootAware="true"
-94-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
-95            android:exported="false" >
-95-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
-96            <intent-filter android:priority="-500" >
-96-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
-97                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-97-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
-97-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
-98            </intent-filter>
-99        </service>
-100        <service
-100-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:52:9-58:19
-101            android:name="com.google.firebase.components.ComponentDiscoveryService"
-101-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:53:13-84
-102            android:directBootAware="true"
-102-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:34:13-43
-103            android:exported="false" >
-103-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:54:13-37
-104            <meta-data
-104-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
-105                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-105-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
-106                android:value="com.google.firebase.components.ComponentRegistrar" />
-106-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
-107            <meta-data
-107-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-108                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-108-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
-109                android:value="com.google.firebase.components.ComponentRegistrar" />
-109-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-110            <meta-data
-110-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
-111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-111-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
-112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
-113        </service>
-114
-115        <provider
-115-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
-116            android:name="com.google.firebase.provider.FirebaseInitProvider"
-116-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
-117            android:authorities="io.animesama.clarity.firebaseinitprovider"
-117-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:27:13-72
-118            android:directBootAware="true"
-118-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:28:13-43
-119            android:exported="false"
-119-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:29:13-37
-120            android:initOrder="100" />
-120-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
-121
-122        <activity
-122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-124            android:exported="false"
-124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-126
-127        <meta-data
-127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-128            android:name="com.google.android.gms.version"
-128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-129            android:value="@integer/google_play_services_version" />
-129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-130
-131        <provider
-131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-132            android:name="androidx.startup.InitializationProvider"
-132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-133            android:authorities="io.animesama.clarity.androidx-startup"
-133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-134            android:exported="false" >
-134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-135            <meta-data
-135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-137                android:value="androidx.startup" />
-137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-138            <meta-data
-138-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-139-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-140                android:value="androidx.startup" />
-140-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-141            <meta-data
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-142                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-143                android:value="androidx.startup" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-144        </provider>
-145
-146        <receiver
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-147            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-148            android:directBootAware="false"
-148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-149            android:enabled="true"
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-150            android:exported="true"
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-151            android:permission="android.permission.DUMP" >
-151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-152            <intent-filter>
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-153                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-154            </intent-filter>
-155            <intent-filter>
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-156                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-157            </intent-filter>
-158            <intent-filter>
-158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-159                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-160            </intent-filter>
-161            <intent-filter>
-161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-162                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-163            </intent-filter>
-164        </receiver>
-165
-166        <service
-166-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-167            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-167-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-168            android:exported="false" >
-168-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-169            <meta-data
-169-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-170                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-170-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-171                android:value="cct" />
-171-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-172        </service>
-173        <service
-173-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-174            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-174-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-175            android:exported="false"
-175-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-176            android:permission="android.permission.BIND_JOB_SERVICE" >
-176-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-177        </service>
-178
-179        <receiver
-179-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-180-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-181            android:exported="false" />
-181-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-182    </application>
-183
-184</manifest>
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:9:9-40
+35        <meta-data
+35-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:10:9-13:11
+36            android:name="com.google.firebase.messaging.default_notification_icon"
+36-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:11:13-83
+37            android:resource="@drawable/ic_stat_name" />
+37-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:12:13-54
+38
+39        <activity
+39-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:14:9-26:20
+40            android:name="io.animesama.clarity.MainActivity"
+40-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:16:13-61
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|density|uiMode"
+41-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:15:13-137
+42            android:exported="true"
+42-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:21:13-36
+43            android:label="Anime-Sama"
+43-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:17:13-39
+44            android:launchMode="singleTop"
+44-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:20:13-43
+45            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+45-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:18:13-71
+46            android:windowFullscreen="true" >
+46-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:19:13-44
+47            <intent-filter>
+47-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:22:13-25:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:23:17-69
+48-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:23:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:24:17-77
+50-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:24:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+55            android:name="androidx.core.content.FileProvider"
+55-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:28:13-62
+56            android:authorities="io.animesama.clarity.fileprovider"
+56-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:29:13-64
+57            android:exported="false"
+57-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:30:13-37
+58            android:grantUriPermissions="true" >
+58-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:31:13-47
+59            <meta-data
+59-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:13-112
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:24-74
+61                android:resource="@xml/file_paths" />
+61-->C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:32:75-109
+62        </provider>
+63
+64        <service
+64-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-16:19
+65            android:name="io.capawesome.capacitorjs.plugins.firebase.messaging.MessagingService"
+65-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-97
+66            android:exported="false" >
+66-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+67            <intent-filter>
+67-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
+68                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+68-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
+68-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
+69            </intent-filter>
+70        </service>
+71        <service
+71-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-14:19
+72            android:name="com.capacitorjs.plugins.pushnotifications.MessagingService"
+72-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-86
+73            android:exported="false" >
+73-->[:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\push-notifications\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+74            <intent-filter>
+74-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
+75                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+75-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
+75-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
+76            </intent-filter>
+77        </service>
+78
+79        <receiver
+79-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+80            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+80-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+81            android:exported="true"
+81-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+82            android:permission="com.google.android.c2dm.permission.SEND" >
+82-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+83            <intent-filter>
+83-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+84                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+84-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+84-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+85            </intent-filter>
+86        </receiver>
+87        <!--
+88             FirebaseMessagingService performs security checks at runtime,
+89             but set to not exported to explicitly avoid allowing another app to call it.
+90        -->
+91        <service
+91-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+92            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+92-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+95            <intent-filter android:priority="-500" >
+95-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:29
+96                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+96-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-78
+96-->[:capacitor-firebase-messaging] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:25-75
+97            </intent-filter>
+98        </service>
+99        <service
+99-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:52:9-58:19
+100            android:name="com.google.firebase.components.ComponentDiscoveryService"
+100-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:53:13-84
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:54:13-37
+103            <meta-data
+103-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+104                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+104-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+107                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+107-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+110-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+112        </service>
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+118
+119        <provider
+119-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+120            android:name="com.google.firebase.provider.FirebaseInitProvider"
+120-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+121            android:authorities="io.animesama.clarity.firebaseinitprovider"
+121-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+125
+126        <meta-data
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+127            android:name="com.google.android.gms.version"
+127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+128            android:value="@integer/google_play_services_version" />
+128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+129
+130        <provider
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+132            android:authorities="io.animesama.clarity.androidx-startup"
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+133            android:exported="false" >
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+134            <meta-data
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+136                android:value="androidx.startup" />
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\bc4e404d2e4e27a8333e074e645fe6c4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+137            <meta-data
+137-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+138-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+139                android:value="androidx.startup" />
+139-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\clq\.gradle\caches\transforms-3\6965ddfd7c9bb67e76de74f23369d3cb\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+142                android:value="androidx.startup" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+143        </provider>
+144
+145        <receiver
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+146            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+147            android:directBootAware="false"
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+148            android:enabled="true"
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+149            android:exported="true"
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+150            android:permission="android.permission.DUMP" >
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+152                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+153            </intent-filter>
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+155                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+158                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+161                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\a916dcd0a76c646859857390ab72a1c7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+162            </intent-filter>
+163        </receiver>
+164
+165        <service
+165-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+166            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+166-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+167            android:exported="false" >
+167-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+168            <meta-data
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+169                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+170                android:value="cct" />
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+171        </service>
+172        <service
+172-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+173-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+174            android:exported="false"
+174-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" >
+175-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+176        </service>
+177
+178        <receiver
+178-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+179-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+180            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+180-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+181        <activity
+181-->[com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+182            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+182-->[com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+183            android:exported="false"
+183-->[com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+184            android:stateNotNeeded="true"
+184-->[com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+185            android:theme="@style/Theme.PlayCore.Transparent" />
+185-->[com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+186    </application>
+187
+188</manifest>

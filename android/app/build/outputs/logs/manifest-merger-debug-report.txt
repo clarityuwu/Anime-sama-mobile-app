@@ -23,6 +23,7 @@ MERGED from [:capacitor-push-notifications] C:\Users\clq\Documents\GitHub\Anime-
 MERGED from [:capacitor-screen-orientation] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\screen-orientation\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-splash-screen] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\splash-screen\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-status-bar] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:capawesome-capacitor-app-update] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capawesome\capacitor-app-update\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-android] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\clq\.gradle\caches\transforms-3\acb0279fa605e581f304fa8780c50bc3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -30,10 +31,11 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\clq\.gradle\caches\tra
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\clq\.gradle\caches\transforms-3\32d85a34682b2d04b9faab0e5b16ad91\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\clq\.gradle\caches\transforms-3\49d76494bab876e6a92e613846322b45\transformed\core-splashscreen-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:app-update:2.1.0] C:\Users\clq\.gradle\caches\transforms-3\05c7be5c972a7c44a197ca71024ac8d9\transformed\app-update-2.1.0\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\clq\.gradle\caches\transforms-3\16593c381fb53164a661e3567f82e7df\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\clq\.gradle\caches\transforms-3\da5efc12bd90c477ce63077713be966d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\clq\.gradle\caches\transforms-3\90675cdbd1ac0e479822cd143cec8182\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
@@ -79,6 +81,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\clq\.gradle\caches\transforms-3\48f44416a1aa2afb113010b955b67f94\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\c4eb8610416ba9fcff7203d70109fbae\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\clq\.gradle\caches\transforms-3\05c878bccf3e6fff3e743a9590f85fe9\transformed\framework-10.1.1\AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml:2:1-40:12
@@ -106,14 +109,16 @@ MERGED from [:capacitor-cordova-android-plugins] C:\Users\clq\Documents\GitHub\A
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-9:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:30:5-59:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:app-update:2.1.0] C:\Users\clq\.gradle\caches\transforms-3\05c7be5c972a7c44a197ca71024ac8d9\transformed\app-update-2.1.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.play:app-update:2.1.0] C:\Users\clq\.gradle\caches\transforms-3\05c7be5c972a7c44a197ca71024ac8d9\transformed\app-update-2.1.0\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\clq\.gradle\caches\transforms-3\16593c381fb53164a661e3567f82e7df\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\clq\.gradle\caches\transforms-3\16593c381fb53164a661e3567f82e7df\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\clq\.gradle\caches\transforms-3\da5efc12bd90c477ce63077713be966d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
@@ -140,6 +145,8 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\5d3e8aec99f1fb0cb348445c949c4001\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.0] C:\Users\clq\.gradle\caches\transforms-3\4084e7bcb4a1738e1ff26326a1997c6e\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
@@ -232,6 +239,8 @@ MERGED from [:capacitor-splash-screen] C:\Users\clq\Documents\GitHub\Anime-sama-
 MERGED from [:capacitor-splash-screen] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\splash-screen\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-status-bar] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-status-bar] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\status-bar\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:capawesome-capacitor-app-update] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capawesome\capacitor-app-update\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:capawesome-capacitor-app-update] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capawesome\capacitor-app-update\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-android] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-android] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
@@ -246,14 +255,16 @@ MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\clq\.gradle\caches\
 MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\clq\.gradle\caches\transforms-3\49d76494bab876e6a92e613846322b45\transformed\core-splashscreen-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:app-update:2.1.0] C:\Users\clq\.gradle\caches\transforms-3\05c7be5c972a7c44a197ca71024ac8d9\transformed\app-update-2.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:app-update:2.1.0] C:\Users\clq\.gradle\caches\transforms-3\05c7be5c972a7c44a197ca71024ac8d9\transformed\app-update-2.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-installations:17.1.3] C:\Users\clq\.gradle\caches\transforms-3\156c773db6c2c6f5e4a160f5839505fa\transformed\firebase-installations-17.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\clq\.gradle\caches\transforms-3\16593c381fb53164a661e3567f82e7df\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\clq\.gradle\caches\transforms-3\16593c381fb53164a661e3567f82e7df\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\clq\.gradle\caches\transforms-3\da5efc12bd90c477ce63077713be966d\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
@@ -344,6 +355,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\clq\.gr
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\clq\.gradle\caches\transforms-3\c4eb8610416ba9fcff7203d70109fbae\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\clq\.gradle\caches\transforms-3\05c878bccf3e6fff3e743a9590f85fe9\transformed\framework-10.1.1\AndroidManifest.xml:25:5-44
 MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\clq\.gradle\caches\transforms-3\05c878bccf3e6fff3e743a9590f85fe9\transformed\framework-10.1.1\AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -450,6 +463,14 @@ ADDED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\
 		ADDED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.1.2] C:\Users\clq\.gradle\caches\transforms-3\5fac1eb95cba1186f24601984c3cb9ff\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\clq\.gradle\caches\transforms-3\876525f9a978da108dfce2a5f3052a4b\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
 	android:value
@@ -474,14 +495,6 @@ ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\cac
 		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\clq\.gradle\caches\transforms-3\10e3746b7658e816f47528e6c962989a\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\clq\.gradle\caches\transforms-3\2d962741d91c910a3db7a5460737cdfe\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\clq\.gradle\caches\transforms-3\9c93503ec2f6c0acb578d7618e52d827\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
@@ -606,3 +619,13 @@ ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\c
 		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
 	android:name
 		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\clq\.gradle\caches\transforms-3\4e5422fcd44780cf7e44d23d9e8e9fce\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\clq\.gradle\caches\transforms-3\ece701b326b3684a7d10970142d0dc5d\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
