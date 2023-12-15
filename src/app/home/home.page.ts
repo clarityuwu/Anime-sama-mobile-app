@@ -11,6 +11,7 @@ import { Platform } from '@ionic/angular';
 import { ScreenOrientation } from "@capacitor/screen-orientation";
 import Shepherd from 'shepherd.js'
 import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
+import { RateApp } from 'capacitor-rate-app'
 
 @Component({
   selector: 'app-home',
@@ -21,9 +22,6 @@ import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
 
 export class HomePage implements OnInit {
   public appUpdateInfo: AppUpdateInfo | undefined;
-
-  private readonly GH_URL =
-    'https://github.com/clarityuwu/Anime-sama-mobile-app/releases'; // GitHub URL for releases
   
   constructor(private platform: Platform,) { }
   
@@ -89,11 +87,11 @@ export class HomePage implements OnInit {
 
       tour.addStep({
         id: 'tourComplete',
-        text: 'Le tour est terminé ! Vous pouvez me soutenir en allant sur mon GitHub et en mettant une étoile !',
+        text: 'Le tour est terminé ! Vous pouvez me soutenir en mettant un avis !',
         buttons: [
           {
-            text: 'Open GitHub',
-            action: () => window.open('https://github.com/clarityuwu/Anime-sama-mobile-app', '_blank')
+            text: 'Fermer',
+            action: () => RateApp.requestReview()
           }
         ]
       });
@@ -101,14 +99,13 @@ export class HomePage implements OnInit {
       tour.start();
       localStorage.setItem('tourShown', 'true');
     }
-
+    
 
     AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
       this.appUpdateInfo = appUpdateInfo;
       if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
-        const choice = await this.presentUpdateAlertplay();
-        if (choice === 'Dismiss') {
-          // Handle the dismiss action here
+        const choice = await this.presentUpdateAlert();
+        if (choice === 'Fermer') {
         } else if (choice === 'PlayStore') {
           AppUpdate.openAppStore();
         }
@@ -135,6 +132,7 @@ export class HomePage implements OnInit {
         }
       }
     });
+    
   
     // Go back when the back button is pressed
     App.addListener('backButton', ({ canGoBack }) => {
@@ -144,6 +142,7 @@ export class HomePage implements OnInit {
       }
     }
     );
+    
 
     // Initialize Push Notifications
     PushNotifications.requestPermissions().then(result => {
@@ -153,6 +152,7 @@ export class HomePage implements OnInit {
         console.error('Permission not granted');
       }
     });
+    
     
     console.log('Initializing HomePage');
 
@@ -170,26 +170,8 @@ export class HomePage implements OnInit {
         alert('Push received: ' + JSON.stringify(notification));
       },
     );
-
-    // If the user clicks on the notification, go to the main page or if it's an update notification, show the alert
-    PushNotifications.addListener(
-      'pushNotificationActionPerformed',
-      async (notification: ActionPerformed) => {
-        const data = notification.notification.data;
-        if (data && data['update'] === '1') {
-          const choice = await this.presentUpdateAlert(); // Call function to present the alert
-          if (choice === 'GitHub') {
-            window.open('https://github.com/clarityuwu/Anime-sama-mobile-app/releases', '_blank');
-          } else if (choice === 'PlayStore') {
-            AppUpdate.openAppStore();
-          }
-        } else {
-          this.goToMainPage();
-        }
-      }
-    );
-  }
-
+}
+  
   // Go to the main page when fab button is clicked
   goToMainPage() {
     const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
@@ -217,8 +199,7 @@ export class HomePage implements OnInit {
     { id: 'frieren', name: 'Frieren' },
     { id: 'spy', name: 'Spy X Family' },
     { id: 'ragna', name: 'Ragna Crimson' },
-    { id: 'shangri', name: 'Shangri-La Frontier' },
-    { id: 'update', name: 'Update' },
+    { id: 'shangri', name: 'Shangri-La Frontier' }
   ];
     
   // Create notification channels
@@ -241,42 +222,18 @@ export class HomePage implements OnInit {
   };
 
   // Present the update alert
+
   async presentUpdateAlert(): Promise<string> {
     return new Promise<string>((resolve) => {
       const alert = document.createElement('ion-alert');
       alert.header = 'Mise à jour disponible';
-      alert.message = 'Une mise à jour est disponible, veillez choisir ou vous voulez la télécharger. Vous pouvez aussi ignorer cette mise à jour mais les notification de anime sera obsolète.';
+      alert.message = 'Une mise à jour est disponible. Vous pouvez aussi ignorer cette mise à jour mais les notification des anime seront obsolètes.';
       alert.buttons = [
         {
-          text: 'GitHub',
-          handler: () => {
-            resolve('GitHub');
-          },
-        },
-        {
-          text: 'Play Store',
-          handler: () => {
-            resolve('PlayStore');
-          },
-        },
-      ];
-  
-      document.body.appendChild(alert);
-      return alert.present();
-    });
-  }
-
-  async presentUpdateAlertplay(): Promise<string> {
-    return new Promise<string>((resolve) => {
-      const alert = document.createElement('ion-alert');
-      alert.header = 'Mise à jour disponible';
-      alert.message = 'Une mise à jour est disponible, veillez choisir ou vous voulez la télécharger. Vous pouvez aussi ignorer cette mise à jour mais les notification de anime sera obsolète.';
-      alert.buttons = [
-        {
-          text: 'Dismiss',
+          text: 'Fermer',
           role: 'cancel',
           handler: () => {
-            resolve('Dismiss');
+            resolve('Fermer');
           },
         },
         {
