@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Politique de confidentialité</title>
 </head>
 <body>
   <h1>Politique de confidentialité</h1>
