@@ -116,16 +116,19 @@ export class HomePage implements OnInit {
     AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
       this.appUpdateInfo = appUpdateInfo;
       if (storedVersion && appUpdateInfo.currentVersion > storedVersion) {
-        RateApp.requestReview().catch(error => {
-          console.error('Error requesting review:', error);
-        });
-      localStorage.setItem('appVersion', appUpdateInfo.currentVersion);
+        RateApp.requestReview()
       }
+      localStorage.setItem('appVersion', appUpdateInfo.currentVersion);
+    });
+
+    AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
+      this.appUpdateInfo = appUpdateInfo;
       if (appUpdateInfo.availableVersion > appUpdateInfo.currentVersion) {
         const choice = await this.presentUpdateAlert();
         if (choice === 'Fermer') {
         } else if (choice === 'PlayStore') {
           AppUpdate.openAppStore();
+          RateApp.requestReview();
         }
       }
     }).catch(error => {
