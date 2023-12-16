@@ -112,7 +112,7 @@ export class HomePage implements OnInit {
     }
 
     const storedVersion = localStorage.getItem('appVersion');
-    
+
     AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
       this.appUpdateInfo = appUpdateInfo;
       if (storedVersion && appUpdateInfo.currentVersion > storedVersion) {
@@ -126,7 +126,6 @@ export class HomePage implements OnInit {
         if (choice === 'Fermer') {
         } else if (choice === 'PlayStore') {
           AppUpdate.openAppStore();
-          RateApp.requestReview();
         }
       }
     }).catch(error => {
