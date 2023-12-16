@@ -25,7 +25,11 @@ export class HomePage implements OnInit {
   
   constructor(private platform: Platform,) { }
   
+  
   ngOnInit() {
+
+    let reviewRequested = false;
+
     // Check if the tour has already been shown and if not, show it
     if (!localStorage.getItem('tourShown')) {
       const tour = new Shepherd.Tour({
@@ -91,7 +95,12 @@ export class HomePage implements OnInit {
         buttons: [
           {
             text: 'Fermer',
-            action: () => RateApp.requestReview()
+            action: () => {
+              if (!reviewRequested) {
+                RateApp.requestReview();
+                reviewRequested = true;
+              }
+            }
           }
         ]
       });
