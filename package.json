@@ -35,6 +35,7 @@
     "@capacitor/status-bar": "^5.0.6",
     "@capawesome/capacitor-app-update": "^5.0.1",
     "@ionic/angular": "^7.5.5",
+    "capacitor-rate-app": "^4.0.3",
     "cordova-open-native-settings": "^1.5.5",
     "install": "^0.13.0",
     "ionicons": "^7.0.0",

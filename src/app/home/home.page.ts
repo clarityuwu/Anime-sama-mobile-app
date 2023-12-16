@@ -108,6 +108,7 @@ export class HomePage implements OnInit {
         if (choice === 'Fermer') {
         } else if (choice === 'PlayStore') {
           AppUpdate.openAppStore();
+          RateApp.requestReview();
         }
       }
     }).catch(error => {
