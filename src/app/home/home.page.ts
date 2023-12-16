@@ -116,7 +116,11 @@ export class HomePage implements OnInit {
     AppUpdate.getAppUpdateInfo().then(async (appUpdateInfo) => {
       this.appUpdateInfo = appUpdateInfo;
       if (storedVersion && appUpdateInfo.currentVersion > storedVersion) {
-        RateApp.requestReview()
+        setTimeout(() => {
+          RateApp.requestReview().catch(error => {
+            console.error('Error requesting review:', error);
+          });
+        }, 2000); 
       }
       localStorage.setItem('appVersion', appUpdateInfo.currentVersion);
     });
