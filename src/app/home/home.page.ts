@@ -99,6 +99,8 @@ export class HomePage implements OnInit {
               if (!reviewRequested) {
                 RateApp.requestReview();
                 reviewRequested = true;
+              } else {
+                tour.hide(); // or tour.complete();
               }
             }
           }
@@ -117,7 +119,6 @@ export class HomePage implements OnInit {
         if (choice === 'Fermer') {
         } else if (choice === 'PlayStore') {
           AppUpdate.openAppStore();
-          RateApp.requestReview();
         }
       }
     }).catch(error => {
