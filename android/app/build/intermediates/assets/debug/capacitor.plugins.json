@@ -34,5 +34,9 @@
 	{
 		"pkg": "@capawesome/capacitor-app-update",
 		"classpath": "io.capawesome.capacitorjs.plugins.appupdate.AppUpdatePlugin"
+	},
+	{
+		"pkg": "capacitor-rate-app",
+		"classpath": "com.capacitor.rateApp.CapacitorRateAppPlugin"
 	}
 ]

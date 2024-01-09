@@ -1,6 +1,5 @@
 import { Component, OnInit} from '@angular/core';
 import {
-  ActionPerformed,
   PushNotificationSchema,
   PushNotifications,
   Token,
@@ -12,6 +11,7 @@ import { ScreenOrientation } from "@capacitor/screen-orientation";
 import Shepherd from 'shepherd.js'
 import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
 import { RateApp } from 'capacitor-rate-app'
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
 @Component({
   selector: 'app-home',
@@ -163,6 +163,7 @@ export class HomePage implements OnInit {
      console.log(canGoBack);
       if(canGoBack){
        window.history.back();
+       Haptics.impact({ style: ImpactStyle.Light });
       }
     }
     );
@@ -201,6 +202,7 @@ export class HomePage implements OnInit {
     const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
     if (iframe) {
       iframe.src = 'https://anime-sama.fr';
+      Haptics.impact({ style: ImpactStyle.Medium });
     }
   }
 
@@ -209,21 +211,22 @@ export class HomePage implements OnInit {
     const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
     if (iframe) {
       iframe.src = 'https://anime-sama.fr/planning/';
+      Haptics.impact({ style: ImpactStyle.Medium });
     }
   }
 
   // Notification channel list
   animenotiflist = [
-    { id: 'deadmount', name: 'Dead Mount Death Play' },
-    { id: 'tokyorevengers', name: 'Tokyo Revengers' },
-    { id: 'maitreinterdits', name: 'Moi, Le Maitre Des Interdits' },
-    { id: 'eminence', name: 'The Eminence In Shadow' },
-    { id: 'drstone', name: 'Dr Stone' },
-    { id: 'jjk', name: 'Jujutsu Kaisen' },
-    { id: 'frieren', name: 'Frieren' },
-    { id: 'spy', name: 'Spy X Family' },
+    { id: 'tsukimichi', name: 'Tsukimichi' },
+    { id: 'elite', name: 'Classroom of the elite' },
+    { id: 'meshi', name: 'Dungeon Meshi' },
+    { id: 'slave', name: 'Demon Slave' },
+    { id: 'sasaki', name: 'Sasaki to p-chan' },
+    { id: 'heal', name: 'The wrong way to use healing magic' },
+    { id: 'solo', name: 'Solo Leveling' },
+    { id: 'mashle', name: 'Mashle' },
     { id: 'ragna', name: 'Ragna Crimson' },
-    { id: 'shangri', name: 'Shangri-La Frontier' }
+    { id: 'immortal', name: 'The daily life of the immortal king' }
   ];
     
   // Create notification channels
@@ -243,6 +246,7 @@ export class HomePage implements OnInit {
       await PushNotifications.createChannel(channel);
     }
     await OpenNativeSettings.open('notification_id');
+    await Haptics.impact({ style: ImpactStyle.Medium });
   };
 
   // Present the update alert

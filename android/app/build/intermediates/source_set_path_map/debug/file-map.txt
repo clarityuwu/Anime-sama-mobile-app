@@ -44,3 +44,4 @@ io.animesama.clarity.app-packaged_res-42 C:\Users\clq\Documents\GitHub\Anime-sam
 io.animesama.clarity.app-packaged_res-43 C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\splash-screen\android\build\intermediates\packaged_res\debug
 io.animesama.clarity.app-packaged_res-44 C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capacitor\status-bar\android\build\intermediates\packaged_res\debug
 io.animesama.clarity.app-packaged_res-45 C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\@capawesome\capacitor-app-update\android\build\intermediates\packaged_res\debug
+io.animesama.clarity.app-packaged_res-46 C:\Users\clq\Documents\GitHub\Anime-sama-mobile-app\node_modules\capacitor-rate-app\android\build\intermediates\packaged_res\debug
