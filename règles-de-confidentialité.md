@@ -13,7 +13,7 @@
   <p>Nous utilisons le site Anime-Sama pour obtenir des données spécifiques liées à notre contenu. Toutefois, aucune donnée personnelle n'est transmise à Anime-Sama. Les données récupérées restent limitées aux besoins de l'application.</p>
 
   <h2>Intégration Firebase</h2>
-  <p>Nous utilisons Firebase pour des fonctionnalités telles que l'authentification ou le stockage de données non personnelles, comme des paramètres de l'application ou des préférences utilisateur. Aucune information personnelle n'est stockée sur Firebase à des fins de suivi ou d'analyse.</p>
+  <p>Nous utilisons Firebase pour des fonctionnalités telles que l'authentification ou le stockage de données non personnelles, comme des paramètres de l'application ou des préférences utilisateur. Aucune information personnelle (sensibles : adresse ip, nom, localisation etc...) n'est stockée sur Firebase à des fins de suivi ou d'analyse.</p>
 
   <h2>Sécurité des données</h2>
   <p>Toutes les informations non personnelles collectées sont sécurisées et ne sont accessibles qu'aux parties nécessaires au bon fonctionnement de l'application. Nous prenons des mesures pour protéger les données des utilisateurs contre tout accès non autorisé.</p>
