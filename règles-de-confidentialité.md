@@ -18,7 +18,7 @@
   <h2>Sécurité des données</h2>
   <p>Nous prenons des mesures strictes pour sécuriser les données non personnelles collectées, assurant leur protection contre tout accès non autorisé. L'accès à ces données est limité aux parties nécessaires au bon fonctionnement de l'application.</p>
 
-  <h2Pratiques de Rétention des Données</h2>
+  <h2>Pratiques de Rétention des Données</h2>
 
   <p>Nous utilisons Google Analytics et Firebase pour recueillir des informations sur l'interaction des utilisateurs avec notre application. Les données personnelles collectées par Google Analytics sont conservées pour une période déterminée par les recommandations de Google, généralement ne dépassant pas 26 mois, après quoi les données sont automatiquement supprimées ou anonymisées. Cette durée de conservation nous permet d'analyser les tendances sur une période significative et d'améliorer l'expérience utilisateur.
     
